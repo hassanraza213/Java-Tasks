@@ -23,7 +23,7 @@ public class Result {
 			short[] marks = new short[5];
 			
 			for(byte i = 0; i<5; i++) {
-				System.out.println("Enter subject name");
+				System.out.println("Enter subject name " + ( i + 1) );
 				subject[i] = sc.next();
 				
 				byte mark = -1;
